@@ -8,6 +8,7 @@
   --int-orange: #f54e00;
   --cararra: #f7f7f4;
   --black: #26251e;
+  --black-bg: #14120b;
 
   /* ----Fonts---- */
   --inter: Inter, sans-serif;
@@ -15,5 +16,52 @@
 html,
 body {
   font-size: 10px;
-  background-color: var(--black);
+  background-color: var(--black-bg);
+  font-family: var(--inter);
 }
+a,
+li {
+  text-decoration: none;
+  color: var(--cararra);
+  list-style: none;
+}
+img,
+video {
+  width: 100%;
+}
+
+/* ========Header Style============ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 2rem;
+  font-size: 1.4rem;
+}
+.logo {
+  width: 9.5rem;
+}
+.nav-links {
+  display: flex;
+  gap: 3rem;
+}
+.cta-btns {
+  display: flex;
+  gap: 1rem;
+}
+.white-btn {
+  background-color: var(--cararra);
+  color: var(--black);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1.8rem;
+}
+.trans-btn {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.8rem;
+}
+
+/* ==========.hero-section style============= */
